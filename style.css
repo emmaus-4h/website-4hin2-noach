@@ -51,7 +51,7 @@ p {
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
-  float:left;
+  float:right;
   width: 450px;
 }
 .kolomStop {
@@ -106,4 +106,20 @@ nav li a:hover {
 
 nav li a.active {
     color:#0e6dcf;
+}
+
+#oneplusafbeelding {
+  width:200px;
+  float:left;
+  margin:10px;
+}
+
+.oneplus {
+  
+}
+
+#appleafbeeldding {
+  width:200xp;
+  float:left;
+  margin:10px;
 }
