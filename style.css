@@ -57,6 +57,12 @@ p {
   width:100px;
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
+
+.kolomLinksSmall2 {
+  float:left;
+  width:50px;
+  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+}
 .kolomRechts {
   float:right;
   width: 450px;
