@@ -8,7 +8,24 @@
   <meta charset="UTF-8" />
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+  <div id="loader"></div>
+
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
   <div class="page">
 
     <header>
@@ -31,10 +48,10 @@
       <p>
         Welkom op onze website!<br>
         Deze website kan je helpen een nieuwe smartphone te <a href="/Aanbevolen.html">vinden</a> die bij jou en jouw
-        budget past!<br>
+        budget past!<br><br>
         Naast deze aanbevelingen kun je ook een overzicht van <a href="/Merken.html">smartphone merken</a> vinden en <a
-          href="/Nieuws.html">het laatste nieuws</a> over de smartphone industrie. <br>
-        
+          href="/Nieuws.html">het laatste nieuws</a> over de smartphone industrie. <br><br>
+
         Mocht u (nieuws)tips hebben of andere dingen die u bij ons kwijt
         wilt, dan kan dat onder het kopje <a href="/Contact.html">Contact.</a>
       </p>
@@ -55,7 +72,7 @@
       <hr />
       <p class="smalltext">--Emmauscollege-- --2022--</p>
     </footer>
-
+  </div>
   </div>
 </body>
 
